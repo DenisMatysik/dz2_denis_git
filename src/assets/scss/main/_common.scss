@@ -1,4 +1,4 @@
-/* COMMON STYLE */
+/* COMMON STYLE 
 html {
     background: #fff;
     color: $c-text;
@@ -68,7 +68,8 @@ input::placeholder {
 }
 
 
-/* H1 - H6 */
+/* H1 - H6 
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: $headers-font;
@@ -76,7 +77,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 
-/* FORMS */
+/* FORMS 
 label {
     display: inline-block;
 }
@@ -120,15 +121,15 @@ textarea:focus::placeholder {
 }
 
 
-/* SELECT */
+/* SELECT 
 select {
-    /*for WebKit*/
+    /*for WebKit
     -webkit-appearance: none;
-    /* for FF */
+    /* for FF 
     -moz-appearance: none;
     text-indent: 0.01px;
     text-overflow: '...';
-    /* for IE */
+    /* for IE *
     -ms-appearance: none;
     appearance: none !important;
 }
@@ -137,7 +138,7 @@ select::-ms-expand {
     display: none;
 }
 
-/* BUTTONS */
+/* BUTTONS 
 input[type="button"], 
 input[type="submit"], 
 input[type="reset"], 
@@ -152,3 +153,5 @@ input[type="submit"]:hover,
 input[type="reset"]:hover, 
 input[type="button"]:hover, 
 button:hover {}
+
+

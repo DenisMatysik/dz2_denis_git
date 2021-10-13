@@ -2,11 +2,12 @@
     background: url(../imgs/bg-ledi.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    padding-top: 80px;
+    padding-top: 180px;
 }
 
 .section1-titile{
-    width: 509px;
+    max-width: 509px;
+   
     font-weight: 800;
     font-size: 58px;
     line-height: 138%;
@@ -14,8 +15,8 @@
 }
 
 .section1-text{
-    width: 376px;
-    margin-bottom: 35px;
+    max-width: 376px;
+    margin: 35px 0px;
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
