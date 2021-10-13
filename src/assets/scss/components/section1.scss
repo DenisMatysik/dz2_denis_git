@@ -1,0 +1,104 @@
+.section1{
+    background: url(../imgs/bg-ledi.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.titile-first{
+    width: 509px;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 138%;
+    color: $c-text2;
+}
+
+.text-first{
+    width: 376px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.two-buttons{
+    margin-bottom: 80px;
+}
+
+.button-frst {
+    min-width: 187px;
+    font-weight: bold;
+    line-height: 200%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FFA62B;
+    border-radius: 37px;
+    padding: 10px 36px;
+    border-style: none;
+    margin-right: 10px;
+}
+
+.button-scnd {
+    min-width: 157px;
+    font-weight: bold;
+    line-height: 200%;
+    text-align: center;
+    border: 1px solid #00A0C1;
+    border-radius: 37px;
+    padding: 10px 36px;
+    color: #00A0C1;
+    background: none;
+}
+
+// не выходит расположить нормально 3 элемента с flex-wrap:wrap
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+    transform: translate(0, 19px);
+}
+
+.item-colum{
+    flex: 0 1 33.3333%;
+    max-width: 33.3333%;
+    padding: 0 15px;
+}
+
+.item{
+    padding: 35px 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.item-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    color: $c-text2;
+    padding-bottom: 10px;
+    max-width: 268px;
+}
+
+.item-text{
+    font-weight: 500;
+    line-height: 143%;
+    max-width: 224px;
+}
+
+.white-box{
+
+    background: #00A0C1;
+    .item-title{
+    color: white;}
+    .item-text{
+    color: white;}
+}
+
+.item-img{
+    max-width: 48px;
+    max-height: 48px;
+}

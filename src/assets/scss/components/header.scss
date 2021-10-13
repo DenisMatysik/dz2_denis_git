@@ -1,3 +1,47 @@
 // для каждого компонента нужно импортить переменные, чтобы их использовать
 @import "../utils/parameters";
 @import "../utils/mixins";
+
+.header{
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    }
+
+
+.header-nav{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    max-width: 187px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    color: $c-text2;
+    margin: 23px 36px 23px 0;
+    padding: 13px 81px 13px 0; }
+
+.nav-list{
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-text{
+    padding-left: 21px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-text:first-child {
+    padding-left: 0px;
+}
