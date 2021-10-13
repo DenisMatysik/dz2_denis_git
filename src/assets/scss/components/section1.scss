@@ -5,7 +5,7 @@
     padding-top: 80px;
 }
 
-.titile-first{
+.section1-titile{
     width: 509px;
     font-weight: 800;
     font-size: 58px;
@@ -13,7 +13,7 @@
     color: $c-text2;
 }
 
-.text-first{
+.section1-text{
     width: 376px;
     margin-bottom: 35px;
     font-weight: 500;
@@ -52,20 +52,20 @@
 
 // не выходит расположить нормально 3 элемента с flex-wrap:wrap
 
-.items{
+.section1-elements{
     display: flex;
     flex-wrap: wrap;
     margin: 0px -15px;
     transform: translate(0, 19px);
 }
 
-.item-colum{
+.section1-colum{
     flex: 0 1 33.3333%;
     max-width: 33.3333%;
     padding: 0 15px;
 }
 
-.item{
+.section1-element{
     padding: 35px 40px;
     background-color: white;
     display: flex;
@@ -73,7 +73,7 @@
    
 }
 
-.item-title{
+.section1-title{
     font-weight: bold;
     font-size: 24px;
     line-height: 133%;
@@ -83,7 +83,7 @@
     max-width: 268px;
 }
 
-.item-text{
+.section1-text{
     font-weight: 500;
     line-height: 143%;
     max-width: 224px;
@@ -98,7 +98,7 @@
     color: white;}
 }
 
-.item-img{
+.section1-img{
     max-width: 48px;
     max-height: 48px;
 }
