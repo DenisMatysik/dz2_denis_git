@@ -3,6 +3,12 @@
     }
 
     .section2-inf{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .section2-title{
         font-weight: bold;
         font-size: 40px;
         line-height: 147%;
@@ -25,21 +31,20 @@
 
     }
 
-.elements{
+.section2-elements{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
-    justify-content: center;
     margin-bottom: 80px;
 }
 
-.elemet-column{
+.section2-colum{
     flex: 0 1 25%;
     max-width: 25%;
-    margin: 0 15px;
+    padding: 0 15px;
 }
 
-.element{
+.section2-element{
     
     background: white;
     padding: 30px 40px;
@@ -49,7 +54,7 @@
     
 }
 
-.element-title{
+.section2-element-title{
     font-weight: bold;
     font-size: 40px;
     line-height: 147%;
@@ -58,14 +63,14 @@
     
 }
 
-.element-text{
+.section2-element-text{
     font-size: 16px;
     line-height: 150%;
     text-align: center;
     letter-spacing: 0.1px;
 }
 
-.element-img{
-    max-width: 48px;
-    max-height: 48px;
+.section2-element-img{
+    width: 48px;
+    height: 48px;
 }
