@@ -17,7 +17,6 @@
         text-align: center;
         padding-top: 80px;
         margin: 80px 93px 10px 93px;
-
     }
 
     .section2-text{
@@ -28,7 +27,6 @@
         letter-spacing: 0.2px;
         padding: 0 176.5px;
         margin: 0 93px 50px 93px;
-
     }
 
 .section2-elements{
@@ -45,14 +43,12 @@
 }
 
 .section2-element{
-    
     background: white;
     padding: 30px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-}
+    }
 
 .section2-element-title{
     font-weight: bold;
@@ -60,8 +56,7 @@
     line-height: 147%;
     letter-spacing: 0.2px;
     color: $c-text2;
-    
-}
+    }
 
 .section2-element-text{
     font-size: 16px;
