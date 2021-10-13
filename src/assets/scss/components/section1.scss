@@ -79,21 +79,22 @@
     line-height: 133%;
     letter-spacing: 0.1px;
     color: $c-text2;
-    padding-bottom: 10px;
-    max-width: 268px;
+    margin: 10px 0px;
+    //max-width: 268px;
 }
 
 .section1-element-text{
     font-weight: 500;
     line-height: 143%;
     max-width: 224px;
+    
 }
 
 .white-box{
     background: #00A0C1;
-    .section1-title{
+    .section1-element-title{
     color: white;}
-    .section1-text{
+    .section1-element-text{
     color: white;}
 }
 

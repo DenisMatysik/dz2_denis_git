@@ -1,6 +1,12 @@
+.section3{
+    padding-top: 80px;
+}
+
 .section3-inf {
     padding: 45px 0px;
-    margin: 80px 290px 0px 290px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     max-width: 470px;
 }
 
@@ -35,7 +41,7 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 30px 40px;
+    padding: 30px 30px;
 }
 
 
@@ -45,10 +51,11 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.1px;
 color: #252B42;
-margin-bottom: 15px;
+
 }
 
 .section3-element-text{
+    margin: 15px 0px;
     font-weight: 500;
 line-height: 143%;
 }
