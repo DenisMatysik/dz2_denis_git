@@ -1,6 +1,13 @@
 // для каждого компонента нужно импортить переменные, чтобы их использовать
-// @import "../utils/parameters";
+@import "../utils/parameters";
 // @import "../utils/mixins";
+
+//точки адаптива
+//$lg: 1310px;
+//$md: 1024px;
+//$sm: 768px;
+//$xs: 576px;
+
 
 .header{
     position:absolute;
