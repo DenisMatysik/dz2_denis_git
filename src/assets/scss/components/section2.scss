@@ -38,9 +38,7 @@
 .section2-elements{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;
-    
-    
+    margin: 0 -15px;  
 }
 
 .section2-colum{
@@ -78,3 +76,37 @@
     width: 48px;
     height: 48px;
 }
+
+// Медиазапрос на 576px
+@media (max-width:$xs){
+    .section2{
+        margin: 0px 0px 0px 0px;
+    }
+    .section2-inf{
+        margin: 53px 42px 30px 42px;
+        padding: 45px 0px;
+    }
+    .section2-title{
+        padding:0px;
+        max-width: 245px;
+    }
+    .section2-text{
+        max-width: 225px;
+        margin-bottom: 0px;
+    }
+    .section2-elements{
+        margin: 0px 42px;
+        justify-content: center;
+        padding: 0 44.5px;
+    }
+    .section2-colum{
+        flex: 0 1 100%;
+        width: 100%;
+        padding: 0px 0px;
+        margin-bottom: 30px;
+    }
+    .section2-colum:last-child{
+        margin-bottom: 0px;
+    }
+}
+
