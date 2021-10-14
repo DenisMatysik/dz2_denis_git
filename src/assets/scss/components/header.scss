@@ -64,7 +64,7 @@
         align-items: center;  
     }
     .logo{
-        margin: 23px 0px 23px 36px;
+        margin: 23px 0px 83px 36px;
         padding: 13px 85px 13px 0;
         align-self: flex-start;
     }
@@ -84,5 +84,9 @@
         font-size: 30px;
         line-height: 150%;
         text-align: center;
+    }
+
+    .nav-text:last-child{
+        margin-bottom: 0px;
     }
 }

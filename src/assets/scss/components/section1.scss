@@ -9,7 +9,7 @@
 
 .section1-titile{
     max-width: 509px;
-   
+    text-align: center; // убрать ели норм не будет отображаться
     font-weight: 800;
     font-size: 58px;
     line-height: 138%;
@@ -103,4 +103,47 @@
     max-height: 48px;
 }
 
-    
+
+// Медиазапрос на 576px
+@media (max-width:$xs){
+   .section1 {
+    background: url(../imgs/cover.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+   }
+   .section1-titile{
+    font-size: 40px;
+    line-height: 142%;
+    max-width: 335px;
+    margin: 0px 40.5px;
+    }
+    .section1-text{
+        max-width: 279px;
+        margin: 40px 68.5px;  
+        text-align: center;
+    }
+    .two-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button-frst{
+        margin-bottom: 25px;
+    }
+
+    .section1-elements{
+        transform: none;
+        margin: 0px 0px; 
+        padding-bottom: 205px;
+    }
+
+    .section1-colum{
+        flex: 0 1 80%;
+        width: 80%;
+        margin: 0 43.5px 30px 43.5px;
+        padding: 0px 0px;
+    }
+    .section1-colum:last-child{
+        margin-bottom: 0px;
+    }
+}
