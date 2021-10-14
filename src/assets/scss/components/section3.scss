@@ -34,7 +34,7 @@
 .section3-colum {
     display: flex;
     flex-direction: column;
-    flex: 0 0 25%;
+    flex: 0 1 25%;
     width: 25%;
     padding: 0 15px;
 }
@@ -64,5 +64,48 @@ line-height: 143%;
 }
 
 .section3-element-img{
-   
+}
+
+// Медиазапрос на 576px
+@media (max-width:$xs){
+    .section3{
+    padding-top: 0px;
+    margin: 53px 0px 106px 0;}
+    
+    .section3-inf{
+        margin: 0 42px 30px 42px;
+    } 
+    .section3-title{
+        align-self: center;
+        max-width: 180px;
+    }
+    .section3-text{
+        padding: 0px 52.5px;
+    }
+    .section3-elements{
+            margin: 0px 42px 106px 42px;
+            justify-content: center;
+            align-items: center;
+    }
+    .section3-colum{
+        flex: 0 1 100%;
+        padding: 15px 44.5px;
+    }
+
+    .section3-colum:first-child{
+        padding-top: 0px;
+    }
+
+    .section3-colum:last-child{
+        padding-bottom: 0px;
+    }
+
+    .section3-element-text{
+        margin: 15px 0px 0px 0px;
+    }
+
+    
+
+
+
 }
