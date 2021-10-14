@@ -108,6 +108,19 @@
     max-height: 48px;
 }
 
+// Медиазапрос на 768px
+@media (max-width:768px){
+    
+.section1-elements{
+    transform: none;
+}
+    .section1-colum{
+        flex: 0 1 50%;
+        width: 50%;
+        padding: 10px 15px;
+    }
+}
+
 
 // Медиазапрос на 576px
 @media (max-width:$xs){

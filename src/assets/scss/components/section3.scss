@@ -66,6 +66,16 @@ line-height: 143%;
 .section3-element-img{
 }
 
+
+// Медиазапрос на 768px
+@media (max-width:768px){
+    .section3-colum{
+             flex: 0 1 50%;
+             width: 50%;
+             padding: 10px 15px;
+         }
+     }
+
 // Медиазапрос на 576px
 @media (max-width:$xs){
     .section3{
