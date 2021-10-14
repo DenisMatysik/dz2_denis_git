@@ -10,7 +10,7 @@
 .section1-inf{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 
 .section1-titile{
@@ -129,8 +129,11 @@
     background-position: 50% 50%;
     background-size: cover;
    }
+
+   .section1-inf{
+    align-items: center;}
+   
    .section1-titile{
-    
     font-size: 40px;
     line-height: 142%;
     max-width: 335px;
