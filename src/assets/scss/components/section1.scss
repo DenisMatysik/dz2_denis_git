@@ -1,3 +1,5 @@
+@import "../utils/parameters";
+
 .section1{
     background: url(../imgs/bg-ledi.jpg) no-repeat;
     background-position: 50% 50%;
@@ -51,8 +53,6 @@
     background: none;
 }
 
-// не выходит расположить нормально 3 элемента с flex-wrap:wrap
-
 .section1-elements{
     display: flex;
     flex-wrap: wrap;
@@ -81,8 +81,7 @@
     letter-spacing: 0.1px;
     color: $c-text2;
     margin: 10px 0px;
-    //max-width: 268px;
-}
+    }
 
 .section1-element-text{
     font-weight: 500;
@@ -103,3 +102,6 @@
     max-width: 48px;
     max-height: 48px;
 }
+
+@media (max-width:$sm) {}
+    
