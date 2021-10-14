@@ -103,5 +103,31 @@
     max-height: 48px;
 }
 
-@media (max-width:$sm) {}
+
+// Медиазапрос на 576px
+@media (max-width:$xs) {
+    .header{
+        position:static;
+    }
+    .header-nav{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .logo{
+        margin: 23px 0px 23px 36px;
+        padding: 13px 85px 13px 0;
+
+    }
+
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-text{
+        padding-left: 0px;
+        margin-bottom: 30px;
+    }
+}
     
